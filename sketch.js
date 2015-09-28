@@ -27,7 +27,7 @@ function draw() {
       var y = mouseY + vec.y;
 
       ellipse(x, y, pointsize, pointsize);
-      hueColor = map(second(), 0, 60, 0, 100);
+      hueColor = map(second() % 30, 0, 60, 0, 100);
       fill(hueColor, 100, 100, 0.01);
     }
   }

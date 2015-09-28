@@ -15,7 +15,8 @@ function setup() {
   spreadSlider = createSlider(0.2, 10, 2.7);
   spreadSlider.position(20, 20);
   button = createButton('save');
-  button.position(150, 65);
+  button.position(170, 19);
+  button.class('button');
   button.mousePressed(savePng);
   
   colorMode(HSB, 100, 100, 100, 1);
